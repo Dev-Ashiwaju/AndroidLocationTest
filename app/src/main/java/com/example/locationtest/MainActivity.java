@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     private TextView txtLatitude, txtLongitude;
 
-    private final String serverUrl = "https://darajephtechnologies.com/gps/api.php";
+    private final String serverUrl = "Your server url goes here";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
