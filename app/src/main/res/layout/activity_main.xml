@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CD310A"
+        android:textSize="20sp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/txtLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CD310A"
+        android:textSize="20sp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#0ACD0D"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="TextView"
+        android:gravity="center_horizontal" />
+</LinearLayout>
